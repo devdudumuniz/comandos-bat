@@ -1,0 +1,22 @@
+criar rrepositório:
+
+echo "# frotas" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/devdudumuniz/frotas.git
+git push -u origin main
+
+
+
+
+clonar existente:
+		//adciona repositorio na pasta que vc escolher
+git remote add origin https://github.com/devdudumuniz/frotas.git
+		//ver os branchs
+git branch -M main
+		//envia as alterações para espera e compressão
+git commit -m "first commit"
+		//salva as alterações no github
+git push -u origin main
