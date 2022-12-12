@@ -1,0 +1,17 @@
+git commit -a # comitar alterações
+git add # adicionar arquivos ao repositório.. é necessário comitar para subir
+git push # subir alterações
+git pull # puxar alterações
+git config --global user.email "you@example.com" # adicionar o email do usuário do repositório
+git config --global user.name "Your Name" # adicionar o nome do usuário do repositório
+
+Senha automática
+
+$ git config credential.helper store
+$ git push http://example.com/repo.git
+Username: <type your username>
+Password: <type your password>
+
+[several days later]
+$ git push http://example.com/repo.git
+[your credentials are used automatically]
